@@ -42,9 +42,11 @@ const Hero = () => {
             Unleash the power of AI within Brainwave. Upgrade your productivity
             with Brainwave, the open AI chat app.
           </p>
-          <Button href="/pricing" white>
-            Get started
-          </Button>
+          <ScrollParallax>
+            <Button href="/pricing" white>
+              Get started
+            </Button>
+          </ScrollParallax>
         </div>
         <div className="relative max-w-[23rem] mx-auto md:max-w-5xl xl:mb-24">
           <div className="relative z-1 p-0.5 rounded-2xl bg-conic-gradient">
@@ -74,8 +76,9 @@ const Hero = () => {
                 </ScrollParallax>
 
                 <ScrollParallax isAbsolutelyPositioned>
-                  <Notifications className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
-                  title="Code Generation"
+                  <Notifications
+                    className="hidden absolute -right-[5.5rem] bottom-[11rem] w-[18rem] xl:flex"
+                    title="Code Generation"
                   />
                 </ScrollParallax>
               </div>
@@ -95,8 +98,7 @@ const Hero = () => {
           <BackgroundCircles />
         </div>
 
-<CompanyLogos className="hidden relative z-10 mt-20 lg:block"/>
-
+        <CompanyLogos className="hidden relative z-10 mt-20 lg:block" />
       </div>
       <BottomLine />
     </Section>

@@ -209,6 +209,7 @@ import {
     {
       id: "0",
       title: "Basic",
+      color:"#FFC876",
       description: "AI chatbot, personalized recommendations",
       price: "0",
       features: [
@@ -220,6 +221,7 @@ import {
     {
       id: "1",
       title: "Premium",
+      color:"#AC6AFF",
       description: "Advanced AI chatbot, priority support, analytics dashboard",
       price: "9.99",
       features: [
@@ -231,6 +233,7 @@ import {
     {
       id: "2",
       title: "Enterprise",
+      color:"#FF776F",
       description: "Custom AI chatbot, advanced analytics, dedicated account",
       price: null,
       features: [

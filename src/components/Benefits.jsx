@@ -17,7 +17,7 @@ const Benefits = () => {
           {benefits.map((v) => {
             return (
               <div
-                className="block relative p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
+                className="block relative m-2 p-0.5 bg-no-repeat bg-[length:100%_100%] md:max-w-[24rem]"
                 style={{
                   backgroundImage: `url(${v.backgroundUrl})`,
                 }}

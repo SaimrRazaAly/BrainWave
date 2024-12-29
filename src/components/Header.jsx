@@ -9,7 +9,7 @@ import { useState } from "react";
 import { disablePageScroll, enablePageScroll } from "scroll-lock";
 const Header = () => {
   const pathname = useLocation();
-  const [openNav, setOpenNav] = useState(true);
+  const [openNav, setOpenNav] = useState(false);
 
   const toggleNavigation = () => {
     if (openNav) {
@@ -56,7 +56,7 @@ const Header = () => {
                   hover:text-color-1 ${
                     value.onlyMobile && "lg:hidden"
                   } px-6 py-6 md:py-8
-                  lg:-mr-0.25 lg:text-xs lg:font-semibold
+                  lg:-mr-[1rem] lg:text-[13px] lg:font-semibold
                   ${
                     value.url === pathname.hash
                       ? "z-2 lg:text-n-1"
